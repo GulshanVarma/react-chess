@@ -1,0 +1,28 @@
+.redBox{
+    background-color: darkred;
+    border-color: darkred;
+    width: 80px;
+    height: 80px;
+    padding: none;
+    margin: none;
+    border-style: solid;
+    border-width: 3px;
+}
+.whiteBox{
+    background-color: white;
+    border-color: white;
+    color: black;
+    width: 80px;
+    height: 80px;
+    padding: none;
+    margin: none;
+    border-style: solid;
+    border-width: 3px;
+}
+.activeDiv{
+    border-color: green;
+}
+.horizontal{
+    display: flex;
+    flex-direction: row;
+}

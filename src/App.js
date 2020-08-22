@@ -1,12 +1,12 @@
-import React from 'react';
+import React,{Component} from 'react';
+import Board from './board/board'
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      test
-    </div>
-  );
+class App extends Component {
+  state = {  }
+  render() {
+    return (
+      <Board />
+    );
+  }
 }
-
 export default App;
