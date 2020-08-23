@@ -2,7 +2,7 @@
     border: solid 15px;
     width: fit-content;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .redBox{
     background-color: darkred;
@@ -34,4 +34,12 @@
 .horizontal{
     display: flex;
     flex-direction: row;
+}
+
+.pieces{
+    display: block;
+    margin: auto;
+    border: none;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
 }
