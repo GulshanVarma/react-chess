@@ -1,0 +1,13 @@
+export const bk = require('../assets/chesspieces/BK.png');
+export const bb = require('../assets/chesspieces/BB.png');
+export const bh = require('../assets/chesspieces/BH.png');
+export const bp = require('../assets/chesspieces/BP.png');
+export const bq = require('../assets/chesspieces/BQ.png');
+export const br = require('../assets/chesspieces/BR.png');
+export const ee = require('../assets/chesspieces/EE.png');
+export const wb = require('../assets/chesspieces/WB.png');
+export const wh = require('../assets/chesspieces/WH.png');
+export const wk = require('../assets/chesspieces/WK.png');
+export const wp = require('../assets/chesspieces/WP.png');
+export const wq = require('../assets/chesspieces/WQ.png');
+export const wr = require('../assets/chesspieces/WR.png');
