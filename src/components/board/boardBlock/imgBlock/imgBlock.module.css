@@ -1,0 +1,7 @@
+.pieces{
+    display: block;
+    margin: auto;
+    border: none;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
