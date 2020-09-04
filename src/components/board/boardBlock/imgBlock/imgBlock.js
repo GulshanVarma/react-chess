@@ -4,6 +4,7 @@ import classes from './imgBlock.module.css'
 
 
 const get_img_tag = (element, i,child) => {
+    //element = passed piece name
     switch (element) {
         case 'br1': return <img src={br} key={'i' + i} alt={'br1'+classes.pieces} className={classes.pieces}></img>
         case 'br2': return <img src={br} key={'i' + i} alt={'br2'+classes.pieces} className={classes.pieces}></img>
@@ -70,7 +71,7 @@ const get_img_tag = (element, i,child) => {
         case 'wp8': return <img src={wp} key={'i' + i} alt={'wp8'+classes.pieces} className={classes.pieces}></img>
         case 'wq1': return <img src={wq} key={'i' + i} alt={'wq1'+classes.pieces} className={classes.pieces}></img>
         default:
-            console.log('switch default <<<<', element, i)
+            console.log('switch default <<<<', element, i)          // for A-H,1-8
     return <h3>{child}</h3>
     }
 }

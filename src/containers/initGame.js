@@ -72,17 +72,29 @@ class initGame extends Component {
     }
 
     current_move = []
+    prev_queryElement = null;
+    componentDidMount() {
+        this.prev_queryElement = document.querySelector("img[alt='br1imgBlock_pieces__eGGWI']")  // default value   
+    }
 
     selectHandler = (event) => {
         let query = 'img[alt="' + event.target.alt + '"]';
+
+        if (document.querySelector(query)) document.querySelector(query).parentNode.style.borderColor = "greenyellow";
+        else return;
         console.log('[select] = ', document.querySelector(query))
+
+        console.log('[prev] = ', this.prev_queryElement.parentNode)
+        this.prev_queryElement.parentNode.style.borderColor = "";
+
         this.current_move.push(event.target.alt)
+        this.prev_queryElement = document.querySelector(query)
         if (this.current_move.length === 2) {
             this.makeMove();
             return
         }
 
-        console.log('cl = ', this.current_move)
+        console.log('curMove = ', this.current_move)
         // console.log(document.getElementsByClassName(event.target.className))
     }
 
