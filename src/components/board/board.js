@@ -28,7 +28,7 @@ export default (props) => {
     left_side = <div style={{ marginTop: "60px" }}>{arr}</div>
     bottom_side = <div style={{marginInlineStart: "65px",display:"-webkit-inline-box"}}>{temp}</div>
     return (
-        <div>
+        <div style={{display: "inline-grid"}}>
             <div style={{ display: "inline-flex" }}>
                 {left_side}
                 <div className={classes.board}>
