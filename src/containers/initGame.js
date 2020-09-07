@@ -69,7 +69,7 @@ class initGame extends Component {
             61: "wb2",
             62: "wh2",
             63: "wr2"
-        }, moves_played: [],ee_cnt = 0
+        }, moves_played: [],ee_cnt : 0
     }   // ee_cnt to add new unique spaces when killed
 
     current_move = []
